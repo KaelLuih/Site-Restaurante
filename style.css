@@ -1,0 +1,25 @@
+
+.container{
+    background-color: black;
+   
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.container div{
+    font-size: 15px;
+}
+.container ul{
+   text-decoration: none;
+   list-style: none;
+   color: white;
+
+}
+.container a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
