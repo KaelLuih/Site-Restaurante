@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Document</title>
 
 </head>
@@ -24,60 +25,81 @@
             </nav>
         </div>
     </header>
-    <main >
+    <main class="Principal">
         <section class="ParteInicial">
             <h1>Sabor que encanta,<br> experiência que inspira</h1>
             <h4> Ambiente sofisticado,
-                 design elegante e conforto exclusivo <br>
-                 o cenário perfeito para uma experiência
+                design elegante e conforto exclusivo <br>
+                o cenário perfeito para uma experiência
                 gastronômica inesquecível.</h4>
-        
-            <div class="Cardapio ">
-                <h3 class="Ver"> Ver Cardápio</h3>
-                <h3 class="botao">Reservar Mesa</h3>
-            </div>
+          
+                <div class="Cardapio ">
+                    <h3 class="Ver"> Ver Cardápio</h3>
+                    <h3 class="botao">Reservar Mesa</h3>
+                </div>
         </section>
+        <div class="ConteudoPrincipal">
         <section class="Preferidos">
-            <h2>Preferidos da Casa</h2>
-            <h3> A combinação perfeita entre ingredientes selecionados e técnicas apuradas,
-                <br> resultando em sabores únicos e apresentações impecáveis.
+            <h2 class="PreferidosDaCasa">Preferidos da Casa</h2>
+            <h3 class="PreferidosTexto"> A combinação perfeita entre ingredientes selecionados e técnicas apuradas,
+                <br> resultando em sabores únicos e apresentações impecáveis.</h3>
                 <br>
-                <img src="" alt="Prato 1 ">
+                <div class="DescriçãoPratos">
+                <div class="Pratos">
+                <img class="ImagensComida" src="/imagens/ben-lei-flFd8L7_B3g-unsplash.jpg" alt="Prato 1 ">
+                <h5 class="Preço">Nome</h5>
+                <h5 class="Preço">R$ 00,00</h5>
+                <h5 class="Preço">Descrição</h5>
+
+                <img class="ImagensComida" src="/imagens/ben-lei-flFd8L7_B3g-unsplash.jpg" alt="Prato 1 ">
                 <h5>R$ 00,00</h5>
                 <h5>Descrição</h5>
+            </div>
+            </div>
         </section>
         <aside class="MenuLateral">
+            <h4>Nossos Pratos</h4>
             <section class="VideoDemonstração">
                 <iframe src="https://www.youtube.com/embed/xPPLbEFbCAo" width="300" height="200"></iframe>
-                <h4>Descrição</h4>
+                <h4 class="MenuLateral">Descrição</h4>
             </section>
-            <section class="Horario de funcionamento">
-                <h3>Horario de funcionamento</h3>
-                <h4>Segunda-Quinta 11:00-18:00</h4>
-                <h4>Sexta-Domingo 11:00-00:00</h4>
+            <section class="MenuLateral">
+                <h3 class="MenuLateral">
+                    </h3class>Horario de funcionamento</h3>
+                <h4 class="MenuLateral">Segunda-Quinta 11:00-18:00</h4>
+                <h4 class="MenuLateral">Sexta-Domingo 11:00-00:00</h4>
 
-             </section>
-             <section class="Formulario">
-    <form action="processa.php" method="post">
-                <label for="Nome">Nome </label>
-                <input type="Nome" id="Nome" name="Nome" placeholder="Seu nome Completo">
-                <br> 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email@gmail.com">
-                <br>
-                <label for="Data">Data</label>
-                <input type="datetime-local" id="Data" name="Data">
-                <br>
-                <label for="Numero de Pessoas">Numero de Pessoas</label>
-                <input type="number" id="NumerodePessoas" name="NumerodePessoas">
-                <br>
-                <label for="Observações">Observações</label>
-                <input type="text" id="Observações" name="Observações" placeholder="Informações adicioais">
-                <br>
-                <input type="submit" value="Enviar">
+            </section>
+
+            <section class="MenuLateral">
+                <form action="processa.php" method="post">
+                    <label for="Nome">Nome </label>
+                    <br>
+                    <input type="Nome" id="Nome" name="Nome" placeholder="Seu nome Completo">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Email@gmail.com">
+                    <br>
+                    <label for="Data">Data</label>
+                    <br>
+                    <input type="datetime-local" id="Data" name="Data">
+                    <br>
+                    <label for="Numero de Pessoas">Numero de Pessoas</label>
+                    <br>
+                    <input type="number" id="NumerodePessoas"  name="NumerodePessoas">
+                    <br>
+                    <label for="Observações">Observações</label>
+                    <br>
+                    <input type="text" id="Observações" name="Observações" placeholder="Informações adicioais">
+                    <br>
+                    <input type="submit" value="Enviar">
                 </form>
             </section>
         </aside>
+        </div>
+
+        </div>
 
         <section class="Avaliações">
             <h2>Avaliações</h2>
@@ -91,15 +113,16 @@
                 <input type="email" id="email" name="email">
                 <label for=""></label>
                 <input type="submit" value="Enviar">
-                </form>
-              <br>
+            </form>
+            <br>
         </section>
 
 
     </main>
     <footer>
-        <div id="logo">logo 
-            <div> <h3>Links Rapidos</h3>
+        <div id="logo">logo
+            <div>
+                <h3>Links Rapidos</h3>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -117,7 +140,7 @@
         </div>
         <div>
             <nav>
-                <ul >
+                <ul>
                 </ul>
             </nav>
         </div>
