@@ -30,7 +30,7 @@
     list-style: none;
 }
 .ParteInicial {
-background-image:  url(/Site-Restaurante/imagens/kristian-angelo-sLYKdnVQzZQ-unsplash.jpg);
+background-image:  url(/imagens/kristian-angelo-sLYKdnVQzZQ-unsplash.jpg);
 padding: 80px;
 
 background-size: cover;       
@@ -73,6 +73,73 @@ h1{
     color: white;
 }
 .MenuLateral{
+
+  margin: 20px;
+padding: 0px;
+margin-top: 20px;
+
+}
+.ConteudoPrincipal{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 35px;
+
+}
+.ConteudoPrincipal .Preferidos{
     display: flex;
-    flex-direction: column-reverse;
+
+justify-content: flex-start;
+justify-items: flex-start;
+align-content: flex-start;
+flex-grow: 1 ;
+}
+
+.Preferidos {
+    font-family: 'Playfair Display', serif;
+display: flex;
+justify-items: center;
+flex-direction: column;
+padding: 0px;
+margin-top: 20px;
+margin-left: 0;
+align-items: center;
+
+}
+.PreferidosDaCasa{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.PreferidosTexto{
+    text-align: center;
+
+
+    font-style: none;
+    color: rgba(80, 70, 70, 0.753);
+    font-size: 12px;
+}
+.ImagensComida{
+width: 300px;
+height: 200px;
+
+
+}
+.DescriçãoPratos{
+    display: flex;
+    
+    gap: 40px;
+    padding: 20px;
+}
+.Pratos{
+    display: flex;
+    flex-direction:column ;
+}
+.Prato h5 {
+    margin: 4px 0;
+    text-align: center;
 }
