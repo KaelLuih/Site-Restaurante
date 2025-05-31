@@ -7,19 +7,30 @@ h2 {
 h3 {
     margin: 0;
 }
-
-.container {
-    background-color: rgb(0, 0, 0);
-
-    color: black;
+.Espaçamento{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
     padding: 5px;
+    align-items: center;
+}
+.container {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+    align-items: center;
 
 }
-
+.Logo h2{
+font-size: 35px;
+}
 .container div {
     font-size: 15px;
 }
@@ -36,6 +47,14 @@ h3 {
     text-decoration: none;
     list-style: none;
 }
+.container a:hover{
+ 
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+      
+}
+
+
 
 .ParteInicial {
     background-image: url(/imagens/ImagemDeInicio.jpg);
@@ -93,7 +112,6 @@ h1 {
     padding: 0px;
     height: 50%;
     margin-top: 20px;
-    border: 100px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 5px;
@@ -107,12 +125,22 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.VideoDemonstração{
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 2.2, 0.1);
+}
 
 .ConteudoPrincipal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 35px;
+    width: 90%;
+    
+    margin: 0 auto;
 
 }
 
@@ -151,6 +179,10 @@ h1 {
     height: auto;
     border-radius: 20px;
 
+}
+.ImagensComida:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .DescriçãoPratos {
@@ -300,15 +332,139 @@ h5 {
 }
 
 .textoEmail {
-  
+    color: rgba(80, 70, 70, 0.753);
     width: 800px;
-    
+    font-size: 15px;
 }
 
 .Novidades{
-    margin-top: 50px;
+    margin-top: 80px;
     display:flex ;
     flex-direction: column;
     text-align: center;    
+
+}
+.Formulario{
+   margin: 10px; 
+   height: 100px;
+
+}
+.DescriçãoNovidades{
+    font-size: 15px;
+    color: rgba(80, 70, 70, 0.753);
+}
+.PrincipalNovidades{
+    font-size: 50px;
+}
+footer{
+ background-color: rgb(53, 24, 5);
+display: flex;
+flex-direction: row;
+color: white;
+justify-content: space-between;
+gap: 50px;
+width: auto;
+height: 300px;
+margin: 0 auto;
+
+
+}
+.Rodapé{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 450px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.TamanhoFormulario{
+    width: 250px;
+}
+.HorarioPrin{
+    color: white;
+}
+.HorarioFun{
+    display: flex;
+    flex-direction: column;
+    color: rgb(209, 200, 200);
+    align-items: center;
+}
+.logo{
+    font-size: 20px;    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant Garamond', serif;
+}
+.DescriçãoLogo{
+    font-size: 15px;
+    padding: 5px;
+    color: rgb(241, 227, 227);
+    margin-top: 0px;
+    color: rgb(209, 200, 200);
+    margin: 0px;
+}
+.LinkRapido h3{
+    display: flex;
+    justify-content: center;
+}
+.LinkRapido ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+gap: 20px;
+
+}
+.LinkRapido li{
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+    color: rgb(209, 200, 200);
+}
+.LinkRapido a{
  
+
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+    color: rgb(209, 200, 200);
+
+}
+.Contato{
+display: flex;
+flex-direction: column;
+    align-items: center;
+    gap: 20PX;
+}
+.Contato h5{
+    color: rgb(209, 200, 200);  
+}
+
+/* CSS DA PAGINA CARDAPIO */
+
+
+.Inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.TextoInicio{
+    width: 800px;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: flex-start;
+    font-style: none;
 }
