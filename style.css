@@ -26,6 +26,7 @@ h3 {
     gap: 20px;
     padding: 5px;
     align-items: center;
+    
 
 }
 .Logo h2{
@@ -47,10 +48,17 @@ font-size: 35px;
     text-decoration: none;
     list-style: none;
 }
+
 .container a:hover{
  
-        background-color: rgb(255, 255, 255);
-        color: rgb(255, 0, 0);
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        border-color: white;
+        transition: background-color 0.3s ease 0.1s, color 0.3s ease 0.1s;
+
+        transform: scale(1.05);
+       
       
 }
 
@@ -356,115 +364,129 @@ h5 {
 .PrincipalNovidades{
     font-size: 50px;
 }
-footer{
- background-color: rgb(53, 24, 5);
-display: flex;
-flex-direction: row;
-color: white;
-justify-content: space-between;
-gap: 50px;
-width: auto;
-height: 300px;
-margin: 0 auto;
+footer {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 100%;
 
 
 }
-.Rodapé{
+
+.Rodapé {  
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 450px;
+    justify-content: space-around;
+
+  
+
 }
-.logo{
+
+.logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    max-width: 300px;
 }
-.TamanhoFormulario{
-    width: 250px;
+
+.DescriçãoLogo {
+    font-size: 14px;
+    padding: 5px 0;
+    color: rgb(209, 200, 200);
 }
-.HorarioPrin{
+
+.LinkRapido h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.LinkRapido ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.LinkRapido li {
+    list-style: none;
+}
+
+.LinkRapido a {
+    color: rgb(209, 200, 200);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.LinkRapido a:hover {
     color: white;
 }
-.HorarioFun{
-    display: flex;
-    flex-direction: column;
-    color: rgb(209, 200, 200);
-    align-items: center;
-}
-.logo{
-    font-size: 20px;    
-    display: flex;
-    flex-direction: column;
-    font-family: 'Cormorant Garamond', serif;
-}
-.DescriçãoLogo{
-    font-size: 15px;
-    padding: 5px;
-    color: rgb(241, 227, 227);
-    margin-top: 0px;
-    color: rgb(209, 200, 200);
-    margin: 0px;
-}
-.LinkRapido h3{
-    display: flex;
-    justify-content: center;
-}
-.LinkRapido ul{
+
+.Contato {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-gap: 20px;
-
+    
 }
-.LinkRapido li{
-    gap: 20px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style: none;
-    display: flex;
 
-    color: rgb(209, 200, 200);
-}
-.LinkRapido a{
- 
-
-    gap: 20px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style: none;
-    color: rgb(209, 200, 200);
-
-}
-.Contato{
-display: flex;
-flex-direction: column;
-    align-items: center;
-    gap: 20PX;
-}
-.Contato h5{
+.Contato h5 {
     color: rgb(209, 200, 200);  
+    font-size: 16px;
+    margin-bottom: 5px;
 }
+
+.HorarioFun {
+    color: rgb(209, 200, 200);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.Autoria{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: auto  ;
+}
+
+
 
 /* CSS DA PAGINA CARDAPIO */
 
+.PrincipalCardapio{
 
-.Inicial{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    margin-top: 20px;
+    background-color: black;
+    color: white;
+    gap: 30px;
+    font-size:15px ;
 }
-.TextoInicio{
-    width: 800px;
-    justify-content: flex-start;
-    text-align: left;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    align-items: flex-start;
-    font-style: none;
+.TextoSegundario{
+    font-size: 13px;
+    font-family: "Cinzel", serif;
 }
+.TextoPrincipal{
+   
+}
+.ImagemCardapio{
+    height :421px ;
+  width: 530px;
+}
+.TextoCardapio{
+    color: rgb(185, 175, 108);
+}
+.TextoCardapio::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(185, 175, 108);
+    margin-top: 5px;
+  }
+
