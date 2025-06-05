@@ -49,4 +49,4 @@ Este projeto é de uso livre para fins de estudo e inspiração.
 
 ---
 
-> Sinta-se à vontade para contribuir ou adaptar o projeto conforme sua necessidade!
+> Sinta-se à vontade para adaptar o projeto conforme sua necessidade!
