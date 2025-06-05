@@ -287,6 +287,10 @@ h1 {
 
 
 }
+.Mensagens:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
 
 .ImagenEstrela {
     width: 20%;
@@ -365,7 +369,7 @@ h5 {
     font-size: 50px;
 }
 footer {
-    margin-top: 20px;
+   
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -465,28 +469,126 @@ footer {
     background-color: black;
     color: white;
     gap: 30px;
-    font-size:15px ;
+    font-size:20px ;
+   padding: 280px;
+ 
 }
 .TextoSegundario{
-    font-size: 13px;
+    font-size: 17px;
     font-family: "Cinzel", serif;
+    width: 600px;
+
+    color: rgb(243, 234, 234);
+    margin-top:60px ;
 }
 .TextoPrincipal{
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+   width: 650px;
+   font-size: 50px;
+}
+.ImagemCardapioPrin{
+    height :408px ;
+  width: 612px;
+  border-radius: 30px;
 }
 .ImagemCardapio{
-    height :421px ;
+    height :521px ;
   width: 530px;
+  border-radius: 10px;
+  flex: 1;
+}
+.ImagemCardapioBebida{
+    height :521px ;
+    width: 530px;
+    border-radius: 10px;
+    flex: 1;
 }
 .TextoCardapio{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
     color: rgb(185, 175, 108);
+    position: relative;
+    font-size: 30px;
 }
 .TextoCardapio::after {
     content: '';
-    display: block;
+    position: absolute;
+    bottom: 0;
     width: 100px;
     height: 2px;
     background-color: rgb(185, 175, 108);
     margin-top: 5px;
   }
 
+  .SegundaParte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;background-color: rgb(4, 6, 8);
+    color: white;
+    padding: 50PX;
+  
+    
+  }
+.TextoCardapioSegundaParte{
+    font-size: 25px;
+ 
+}
+.ConteudoSegundaParte{
+    display: flex;
+    flex-direction: column;
+    
+}
+.SegundaParteTexto{
+    display: flex;
+    flex-direction: row;
+    margin-top:3  40px ;
+    gap: 40px;
+}
+.ListaCardapio{
+    font-size: 15px;
+
+}
+.TituloCardapio{
+    color: rgb(185, 175, 108);
+}
+.TituloCardapio::after {
+    content: '';
+    display: block; 
+    width: 50px;
+    height: 2px;
+    background-color: rgb(185, 175, 108);
+    margin-top: 5px;
+  }
+  .TerceiraParte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;background-color: black;
+    color: white;
+    padding: 50PX;
+  }
+  .TerceiraParteTexto{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:  40px ;
+    gap: 40px;
+  }
+.QuarteParte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;background-color: black;
+    color: white;
+    padding: 50PX;
+}
+.QuartaParteTexto{
+    display: flex;
+    flex-direction: row;
+    margin-top:  40px ;
+    gap: 40px;
+  }
