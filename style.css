@@ -31,6 +31,7 @@ h3 {
 }
 .Logo h2{
 font-size: 35px;
+font-style: italic;
 }
 .container div {
     font-size: 15px;
@@ -395,6 +396,7 @@ footer {
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
     max-width: 300px;
+    font-style: italic;
 }
 
 .DescriçãoLogo {
@@ -592,3 +594,110 @@ footer {
     margin-top:  40px ;
     gap: 40px;
   }
+
+
+  .PrincipalSobre {
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+
+
+
+.TextoSobreNós {
+    display: flex;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    font-style:initial;
+}
+
+.descricaoSobreNos {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-style: italic;
+}
+
+/* Seção Nossa História */
+.NossaHistoria {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.NossaHistoriaImg {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.PrincipalHistoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    color: #8B0000;
+    flex: 1;
+}
+
+.Imagemrestaurante {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+
+.Historia {
+    font-size: 1.1rem;
+    color: #444;
+    text-align: justify;
+
+}
+
+.NossoAmbiente {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.Ambiente {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 800px;
+    text-align: justify;
+}
+.ParteInicialSobre{
+    background-image: url(/imagens/kayleigh-harrington-yhn4okt6ci0-unsplash\ \(1\).jpg);
+    padding: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+ 
+}
+
+.ParteInicialSobre{
+filter: brightness(50%);
+}
+.TextosImgNos{
+    display:flex ;
+    flex-direction: row;
+   padding: 50PX;
+    gap: 50px;
+}
+.TextosNosHistoria{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
